@@ -1,0 +1,88 @@
+
+.banner{
+	width: 100vw;
+	height: 736px;
+	background-image: url(../img/banner1.jpg);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-color: #fbfbfd;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.banner .banner-font{
+	flex-direction: column;
+
+	/* width: 100vw; */
+	position: absolute;
+	padding-top: 99px;
+	display: flex;
+	font-size: 17px;
+	line-height: 1.47059;
+	font-weight: 400;
+	letter-spacing: -.022em;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	background-color: #fbfbfd;
+	color: #1d1d1f;
+	font-style: normal;
+}
+.banner .banner-font h1{
+	/* width: 100vw; */
+	font-size: 48px;
+	line-height: 60px;
+	font-weight: 600;
+	letter-spacing: -.005em;
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.banner .banner-font h2{
+	/* width: 100vw; */
+	font-size: 25px;
+	line-height: 31px;
+	font-weight: 400;
+	letter-spacing: .004em;
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	margin-top: 6px;
+}
+.banner .banner-font p{
+	/* width: 100vw; */
+	height: 25px;
+	margin-top: 0.4em;
+	font-size: 17px;
+	color: #86868b;
+	text-align: center;
+}
+.banner .banner-font p:nth-child(1){
+	margin-top: .8em;
+}
+.link a{
+	display: inline-block;
+	font-size: 21px;
+	line-height: 1.381;
+	font-weight: 400;
+	letter-spacing: .011em;
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	margin-top: .65em;
+	color: #06c;
+	letter-spacing: inherit;
+	text-decoration: none;
+}
+.link a:last-child{
+	margin-left: 35px;
+}
+
+.icon {
+       width: 1em; height: 1.2em;
+       vertical-align: -0.15em;
+       fill: currentColor;
+       overflow: hidden;
+	   font-size: 12px;
+	   text-align: center;
+	   }
+.link a{
+	color: #06c;
+}
+.link a:hover{
+	text-decoration: underline;
+}

@@ -1,0 +1,174 @@
+
+.hbanner{
+	
+	display: flex;
+}
+.hbanner .banner{
+	flex: 1;
+	background-color: #000000;
+	height: 580px;
+}
+.hbanner .banner-font{
+	position: relative;
+
+}
+.hbanner .banner:nth-child(1){
+	margin: 10px 5px 10px 10px;
+	
+	/* width: 625.5px;
+	height: 624px; */
+	
+	background-image: url(../img/watch.jpg);
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.hbanner .banner:nth-child(2){
+	margin: 10px 10px 10px 5px;
+	/* width: 625.5px;
+	height: 624px; */
+	background-image: url(../img/macbook_air.jpg);
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.hbanner .banner:nth-child(1) .banner-font,.hbanner .banner:nth-child(2) .banner-font{
+	
+	background-color: #000000;
+	color: #FFFFFF;
+	padding-top: 44px;
+}
+.hbanner .banner:nth-child(1) h1{
+	width: 430px;
+	height: 50px;
+	background-image: url(../img/logo__watch.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.hbanner .banner:nth-child(1) h2{
+	margin-top: 11px;
+	font-size: 21px;
+	line-height: 1.2381;
+	font-weight: 400;
+	letter-spacing: .016em;
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.hbanner .banner:nth-child(1) a, .hbanner .banner:nth-child(2) a{
+	margin-left: -3px;
+	color: #2997ff;
+	letter-spacing: inherit;
+	height: 20px;
+	font-size: 17px;
+	line-height: 1.23536;
+	font-weight: 400;
+	letter-spacing: -.022em;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.hbanner .banner:nth-child(2) h1{
+	font-size: 40px;
+	width: 430px;
+	height: 50px;
+
+}
+.hbanner .banner:nth-child(2) h2{
+	font-size: 21px;
+	width: 430px;
+	height: 50px;
+
+}
+
+.hbanner .banner:nth-child(1) a,.hbanner .banner:nth-child(2) a{
+	margin-left: 20px;
+}
+
+@media only screen and (max-width:767px) {
+	
+	.banner{
+		background-image: url(../img/iphone_12_us__fo0stbby242m_small.jpg);
+		height: 500px;
+		background-color: #fbfbfd;
+		overflow: hidden;
+		
+	}
+	
+	.hbanner .banner{
+		height: 490px;
+		background-size: 200px 300px;
+	}
+	.hbanner .banner:nth-child(2){
+		/* background-size: 900px 550px; */
+		background-size: 734px 548px;
+	}
+	
+	.banner .banner-font{
+		padding-top: 37px;
+		
+	}
+	.banner .banner-font h1{
+		font-size: 32px;
+		line-height: 1.125;
+		font-weight: 600;
+		letter-spacing: .004em;
+		font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	}
+	.banner .banner-font h2 {
+		margin-top: 2px;
+		font-size: 19px;
+		line-height: 1.4211;
+		font-weight: 400;
+		letter-spacing: .012em;
+		font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	}
+	.banner .banner-font p{
+		margin-top: .8em;
+		max-width: 200px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 15px;
+		font-size: 14px;
+		line-height: 1.42859;
+		font-weight: 400;
+		letter-spacing: -.016em;
+		font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	}
+	.banner .banner-font a{
+		font-size: 19px;
+	}
+	.banner .banner-font a:last-child{
+		margin-left: 27px;
+	}
+	.hbanner {
+		display: block;
+	}
+	.hbanner .banner {
+		width: 100% !important;
+		margin-top: 10px !important;
+		margin-left: 0 !important;
+		
+	
+	}
+	
+	.hbanner .banner .banner-font h1{
+		margin-top: -20px;
+		
+	}
+	.hbanner .banner .banner-font h2{
+		font-size: 19px;
+		line-height: 1.21053;
+		font-weight: 400;
+		letter-spacing: .012em;
+		font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:1070px) {
+	.hbanner .banner{
+		width: 516px;
+		height: 490px;
+		background-size: 200px 300px;
+	}
+	.hbanner .banner:nth-child(2){
+		background-size: 1100px;
+	}
+	
+}
